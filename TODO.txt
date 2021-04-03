@@ -1,0 +1,19 @@
+TEST FOR BACKEND DEVELOPER 
+Software Engineer – Backend Engineer 
+Hi There! 
+Thank you for your interest in working at Lawrence Price, we are excited to see  your creativity fully displayed in the evaluation process below.  
+The following challenge will evaluate the following skills. 
+• An understanding of ES6 and Modern JavaScript patterns.  • Proficiency in Backend technologies (NodeJS preferred).  • Proficiency with Cloud technologies (Heroku).  
+• Understanding and ability to implement CI/CD tools.  
+• Ability to write Tests with modern Testing Frameworks. 
+• A very good understanding of Test-Driven Development. 
+Unless otherwise stated you have 72 hours from when you receive this  document to send in a submission via a private GitHub repo.  
+Ensure to read the instruction to ensure your approach is excellent. Transaction Runner 
+Your task is to write the API for a set of Financial transaction, full CRUD with a  mini deployment pipeline  
+- Create a Test DB on https://www.elephantsql.com/ 
+- Create Auth APIs for signup, login, sign-out with standard User Models - Each user should have a Global balance, and an object to show incoming  and outgoing transactions (Style the User Object in the best possible way  you can) 
+- Mock transactions to create a financial ledger (Send Money, Add Money,  Please Note that you do not have to integrate with any payment platform,  just mock transactions by adding and subtracting to the Global User balance and also adding to the Transaction List) 
+- Create a Deployment pipeline and deploy to Heroku 
+- Generate an API SDK for the entire project 
+- Push your code to a private repository and share with HR.  
+Best of luck. We will reach out within 24 hours on the results and status of the  process. Thank you. 

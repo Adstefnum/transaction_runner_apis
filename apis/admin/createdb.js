@@ -2,9 +2,14 @@ var { client } = require('./connectdb');
 
 const query =   `CREATE TABLE users (
   ID SERIAL PRIMARY KEY,
-  name VARCHAR(30),
-  email VARCHAR(30),
-  
+  first_name VARCHAR(40),
+  last_name VARCHAR(40),
+  email VARCHAR(50),
+  password VARCHAR(40),
+  hashed_password VARCHAR(40),
+  uuid VARCHAR(40),
+  global_balance VARCHAR(100),
+  created_on VARCHAR(11),
 );`;
 
 client.connect(function(err) {

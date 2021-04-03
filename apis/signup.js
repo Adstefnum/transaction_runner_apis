@@ -1,4 +1,4 @@
-var client = require('./database_helpers/connectdb');
+var { client } = require('../database_helpers/connectdb');
 
 const createUser = (request, response) => {
   const { name, email } = request.body
