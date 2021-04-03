@@ -1,11 +1,19 @@
-import database_url from 'env.js';
+//dotenv = require('./settings/env');
+
+//dotenv.config();
 
 var pg = require('pg');
 
-var conString = database_url
+var conString = "postgres://otosrmiu:Fj1ckEV_f1exQ6ODln1QOVAovjjEqqce@queenie.db.elephantsql.com:5432/otosrmiu"
 
 var client = new pg.Client(conString);
 
+module.exports = {
+
+  client:client
+}
+
+/*
 client.connect(function(err) {
   if(err) {
     return console.error('could not connect to postgres', err);
@@ -17,4 +25,4 @@ client.connect(function(err) {
     console.log(result.rows[0].theTime);
     client.end();
   });
-});
+});*/
